@@ -278,7 +278,7 @@ main(){
 	}
 	string plaintext= merge(l,r);
 	plaintext = permutation(inverseip,64,plaintext);
-	cout<<"Ciphertext\t";
+	cout<<"PlaintText\t";
 	converttotext(plaintext);
 	cout<<endl;
 	system("PAUSE");
